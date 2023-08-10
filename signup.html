@@ -1,0 +1,104 @@
+<!--I declare that this code was written by me. 
+I will not copy or allow others to copy my code. 
+I understand that copying code is considered as plagiarism.
+
+Student Name: Fatin Nabilah Binti Abdul Gafar
+Student ID: 22020351
+Class: C369-4D-E63C-A
+Date/Time Last modified: 5/8/2023 10:02pm
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sign UP</title>
+    <style>
+        body {
+            background-color: rgb(203, 255, 240);
+        }
+
+        .signupdiv {
+            background: #fff;
+            border: 1px solid #ddd;
+            box-shadow: 1px 2px 3px #ccc;
+            border-radius: 7px;
+            text-align: center;
+            width: 35%;
+            display: block;
+            margin: auto;
+            margin-top: 100px;
+        }
+
+        #signupform {
+            padding: 15px;
+        }
+
+        input,
+        select {
+            margin-bottom: 10px;
+            height: 38px;
+            border: 1px solid #ddd;
+            padding-left: 10px;
+        }
+
+        input {
+            width: 97%;
+        }
+
+        button,
+        select {
+            width: 100%;
+        }
+
+        button {
+            height: 45px;
+            background: #037260;
+            border: none;
+            border-radius: 5px;
+            color: #fff;
+        }
+
+        footer {
+            text-align: left;
+            font-size: 20px;
+            padding-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="signupdiv">
+        <form id="signupform" action="homepage.html">
+            <h3 class="text-center">Signup Form</h3>
+            <input type="text" id="name" placeholder="Name*" required>
+            <input type="email" id="email" placeholder="Email*" required>
+            <input type="number" id="number" placeholder="Phone No*" required>
+            <select id="country">
+                <option value="">Select your country</option>
+                <option value="SG">Singapore</option>
+                <option value="US">United States of America</option>
+                <option value="KE">Kenya</option>
+                <option value="UK">United Kingdom</option>
+                <option value="IN">India</option>
+                <option value="CN">China</option>
+                <option value="CA">Canada</option>
+                <option value="ZA">South Africa</option>
+            </select>
+            <input type="text" id="accNo" placeholder="Account No*" required>
+            <input type="text" id="accNo" placeholder="Account No 2 (optional)">
+            <input type="text" id="accNo" placeholder="Account No 3 (optional)">
+
+            <input type="password" id="password" placeholder="Create a Password *" required>
+            <input type="password" id="password" placeholder="Confirm Password *" required>
+
+            <button type="submit" action="homepage.html">Sign Up</button>
+        </form>
+    </div>
+</body>
+
+<footer>
+    <p>&copy; 2023 PayMe. All rights reserved.</p>
+</footer>
+
+</html>
